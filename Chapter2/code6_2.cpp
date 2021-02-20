@@ -14,6 +14,7 @@ void printPicked(vector<int>& picked){
     cout << "\n";
 }
 
+
 void pick(int n, vector<int>& picked, int toPick){
     if(toPick == 0) {printPicked(picked); return;}
     int smallest = picked.empty() ? 0 : picked.back() + 1;
